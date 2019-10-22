@@ -3,15 +3,15 @@
 function countchars($x,$y,$z){
 if(strlen($x)<$y){
 	$newstring = str_pad($x,$y,$x);
-	echo $newstring;
-	echo '</br>';
+	//echo $newstring;
+	//echo '</br>';
 	$return = substr_count( $newstring , $z );
 	
 }
 else{
 	$str = substr($x,0,$y);
-	echo $str;
-	echo '</br>';
+	//echo $str;
+	//echo '</br>';
 	$return = substr_count( $str, $z);
 	
 }
